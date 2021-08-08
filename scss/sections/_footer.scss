@@ -15,7 +15,7 @@
         }
     }
     .email {
-        font-size: 44px;
+        font-size: 5vw;
         font-weight: 600;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -23,6 +23,11 @@
     #backToTop {
         margin-top: 20px;
         margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .email {
+        font-size: 44px !important;
     }
 }
 .copyright {

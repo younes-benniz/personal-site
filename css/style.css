@@ -764,7 +764,7 @@ a:hover {
   padding: 15px;
 }
 .footer-content .email {
-  font-size: 44px;
+  font-size: 5vw;
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -774,6 +774,11 @@ a:hover {
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .email {
+    font-size: 44px !important;
+  }
+}
 .copyright {
   background-color: #ac69e4;
 }

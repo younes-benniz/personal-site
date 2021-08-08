@@ -1,0 +1,33 @@
+.footer-content {
+    .footer-avatar {
+        width: 150px;
+    }
+    .footer-social {
+        .fa {
+            color: $primary-color;
+            padding: 20px;
+            font-size: 25px;
+            &:hover {
+                color: $secondary-color;
+                font-size: 35px;
+                padding: 15px;
+            }
+        }
+    }
+    .email {
+        font-size: 44px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #backToTop {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+.copyright {
+    background-color: $primary-color;
+    strong {
+        border-bottom: 3px solid $secondary-color;
+    }
+}

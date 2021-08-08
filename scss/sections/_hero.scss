@@ -1,0 +1,31 @@
+.hero-section {
+    padding: 20px 0 150px;
+}
+.hero-title {
+    font-size: 60px;
+}
+#hero {
+    background-color: $primary-color;
+}
+@media screen and (max-width: 769px) {
+    .hero_img {
+        padding: 40px 20px 20px 20px;
+    }
+}
+@media screen and (min-width: 769px) {
+    .hero_description {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #hero {
+        height: 100vh;
+    }
+}
+
+.hero_img {
+    img {
+        width: 350px;
+    }
+}

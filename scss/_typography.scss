@@ -2,13 +2,14 @@
 html {
     scroll-behavior: smooth;
 }
-body {
+html,body {
     font-family: $primary-font;
     font-size: 16px;
     color: $text-color;
     margin: 0;
     padding: 0;
     background-color: $body-color;
+    overflow-x: hidden;
 }
 header {
     margin-bottom: 50px;
